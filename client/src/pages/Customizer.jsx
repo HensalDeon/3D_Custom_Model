@@ -81,11 +81,11 @@ const Customizer = () => {
             handleActiveFilterTab(decalType.filterTab);
         }
     };
-    
+
     const handleClickEditorTab = (tabName) => {
         setActiveEditorTab((prevTab) => (prevTab === tabName ? "" : tabName));
     };
-    
+
     const handleActiveFilterTab = (tabName) => {
         switch (tabName) {
             case "logoShirt":
@@ -111,10 +111,19 @@ const Customizer = () => {
     };
 
     const readFile = (type) => {
-        reader(file).then((result) => {
-            handleDecals(type, result);
-            setActiveEditorTab("");
-        });
+        if (type === "reset") {
+            state.logoDecal = "./threejs.png";
+            state.fullDecal = "./threejs.png";
+            setFile("");
+        }
+        reader(file)
+            .then((result) => {
+                handleDecals(type, result);
+                setActiveEditorTab("");
+            })
+            .catch((err) => {
+                console.log(err);
+            });
     };
     return (
         <AnimatePresence>
