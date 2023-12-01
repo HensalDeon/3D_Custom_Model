@@ -38,3 +38,26 @@ Follow these steps to set up and run the Custom-Creation project on your local m
    ```bash
    git clone https://github.com/your-username/custom-creation.git
    cd custom-creation
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+
+3. **Run the Development Server:**
+   ```bash
+   npm run dev
+
+## Usage
+
+1. Open the Custom-Creation app in your browser.
+2. Interact with the 3D T-shirt model by dragging, zooming, and rotating.
+3. Use the customization options to change the T-shirt color and add a custom logo.
+4. Enjoy the smooth animations provided by Framer Motion.
+5. Once satisfied with the customization, use the download option to save your personalized T-shirt model.
+
+   
+## Contribution
+Contributions to Custom-Creation are welcome! If you encounter any issues, have suggestions, or want to contribute enhancements, please create a pull request or submit an issue on the GitHub repository.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
