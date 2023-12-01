@@ -1,4 +1,6 @@
 # Custom-Creation: 3D T-Shirt Customization Web App
+<img width="960" alt="Screenshot 2023-12-01 163009" src="https://github.com/HensalDeon/3D_Custom_Model/assets/120702682/9aebd731-6a85-4f6f-96b9-cca45ad0acfc">
+
 
 Custom-Creation is a cutting-edge 3D web application that allows users to customize and visualize their own unique T-shirt designs in real-time. Built with Vite, React.js, Three.js, React Three Fibre, React Three Drei, Framer Motion, and styled with Tailwind CSS, this project seamlessly combines powerful technologies to deliver an engaging and interactive user experience.
 
