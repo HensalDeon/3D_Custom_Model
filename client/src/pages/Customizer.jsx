@@ -111,6 +111,7 @@ const Customizer = () => {
     };
 
     const readFile = (type) => {
+        if (file == "") return;
         if (type === "reset") {
             state.logoDecal = "./threejs.png";
             state.fullDecal = "./threejs.png";

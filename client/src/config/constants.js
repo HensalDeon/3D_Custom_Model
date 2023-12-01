@@ -9,10 +9,11 @@ export const EditorTabs = [
     name: "filepicker",
     icon: fileIcon,
   },
-  {
-    name: "aipicker",
-    icon: ai,
-  },
+  //currently disabled due to unvailability of the open ai api key
+  // {
+  //   name: "aipicker",
+  //   icon: ai,
+  // },
 ];
 
 export const FilterTabs = [

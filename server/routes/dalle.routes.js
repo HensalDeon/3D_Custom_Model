@@ -21,17 +21,20 @@ router.route('/').post(async (req, res) => {
     const { prompt } = req.body;
 
     const response = await openai.createImage({
+      model: "dall-e-3",
       prompt,
       n: 1,
       size: '1024x1024',
       response_format: 'b64_json'
     });
 
+    console.log(response,);
+
     const image = response.data.data[0].b64_json;
 
     res.status(200).json({ photo: image });
   } catch (error) {
-    console.error(error);
+    console.error("OpenAI API Error:", error.response ? error.response.data : error.message);
     res.status(500).json({ message: "Something went wrong" })
   }
 })
