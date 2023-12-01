@@ -37,7 +37,7 @@ Follow these steps to set up and run the Custom-Creation project on your local m
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/HensalDeon/3D_Custom_Model.git
+   git clone https://github.com/HensalDeon/Custom-Creation.git
    cd custom-creation
 
 2. **Install dependencies:**
