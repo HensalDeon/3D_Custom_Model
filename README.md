@@ -19,6 +19,8 @@ Custom-Creation is a cutting-edge 3D web application that allows users to custom
 
 - **Logo Upload**: Users can upload their own logos from their local machine, adding a more personalized touch to the T-shirt design.
 
+## Deployment
+The project is live and deployed on Netlify, providing a reliable and accessible platform for 3d enthusiasts to explore. [Check it out here](https://custom-3d-creation.netlify.app/).
 
 ## Technologies Used
 
@@ -66,7 +68,6 @@ Follow these steps to set up and run the Custom-Creation project on your local m
    - Adjust the logo size and position on the T-shirt.
 5. Enjoy the smooth animations provided by Framer Motion.
 6. Once satisfied with the customization, use the download option to save your personalized T-shirt model.
-
 
    
 ## Contribution
