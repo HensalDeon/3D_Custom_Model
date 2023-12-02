@@ -15,6 +15,11 @@ Custom-Creation is a cutting-edge 3D web application that allows users to custom
 
 - **Downloadable T-Shirt Model**: Once satisfied with the customization, users can easily download their personalized T-shirt model for sharing or further use.
 
+- **Text-Based Image Generation**: Utilizes Edenai for dynamically generating logos based on user input.
+
+- **Logo Upload**: Users can upload their own logos from their local machine, adding a more personalized touch to the T-shirt design.
+
+
 ## Technologies Used
 
 - **Vite**: A fast and efficient build tool that enhances the development experience.
@@ -30,6 +35,8 @@ Custom-Creation is a cutting-edge 3D web application that allows users to custom
 - **Framer Motion**: A motion library for React that makes it easy to create stunning animations with a declarative syntax.
 
 - **Tailwind CSS**: A utility-first CSS framework that streamlines the styling process and ensures a consistent and responsive design.
+
+- **Eden AI**: An AI service which provide numerous features to do. Here we have used the text based image generation.
 
 ## Getting Started
 
@@ -52,9 +59,14 @@ Follow these steps to set up and run the Custom-Creation project on your local m
 
 1. Open the Custom-Creation app in your browser.
 2. Interact with the 3D T-shirt model by dragging, zooming, and rotating.
-3. Use the customization options to change the T-shirt color and add a custom logo.
-4. Enjoy the smooth animations provided by Framer Motion.
-5. Once satisfied with the customization, use the download option to save your personalized T-shirt model.
+3. Use the customization options to change the T-shirt color.
+4. Add a Custom Logo:
+   - Use the text input to dynamically generate a logo using the Text-Image-Generation-Library.
+   - Alternatively, upload your own logo by clicking on the 'Upload Logo' button.
+   - Adjust the logo size and position on the T-shirt.
+5. Enjoy the smooth animations provided by Framer Motion.
+6. Once satisfied with the customization, use the download option to save your personalized T-shirt model.
+
 
    
 ## Contribution

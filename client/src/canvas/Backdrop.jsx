@@ -3,7 +3,6 @@ import { AccumulativeShadows, RandomizedLight } from "@react-three/drei";
 import state from "../store";
 const Backdrop = () => {
     const shadows = useRef();
-console.log(state.color,"122112");
     return (
         <AccumulativeShadows
             ref={shadows}
