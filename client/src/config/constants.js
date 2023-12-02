@@ -10,10 +10,10 @@ export const EditorTabs = [
         icon: fileIcon,
     },
     //currently disabled due to unvailability of the open ai api key
-    // {
-    //   name: "aipicker",
-    //   icon: ai,
-    // },
+    {
+      name: "aipicker",
+      icon: ai,
+    },
 ];
 
 export const FilterTabs = [
