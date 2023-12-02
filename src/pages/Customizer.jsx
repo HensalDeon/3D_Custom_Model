@@ -82,10 +82,7 @@ const Customizer = () => {
         } catch (error) {
             alert(error);
         }
-        // finally {
-        //     setGeneratingImg(false);
-        //     setActiveEditorTab("");
-        // }
+        
     };
 
     const handleDecals = (type, result) => {
@@ -111,6 +108,7 @@ const Customizer = () => {
                 state.isFullTexture = !activeFilterTab[tabName];
                 break;
             case "download":
+                console.log("hey");
                 downloadCanvasToImage();
                 break;
             default:
